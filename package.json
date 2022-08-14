@@ -1,7 +1,7 @@
 {
   "name": "rest-api-task-exercise",
   "version": "1.0.0",
-  "description": "",
+  "description": "A REST API Task that connects with a MySql database.",
   "main": "index.js",
   "scripts": {
     "babel-node": "babel-node --presets=@babel/preset-env",
