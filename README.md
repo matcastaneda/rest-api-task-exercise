@@ -33,7 +33,7 @@ To start clone this repository use the following command:
 git clone https://github.com/matcastaneda/rest-api-task-exercise
 ```
 
-#### :heavy_plus_sign: Database Setup
+### :heavy_plus_sign: Database Setup
 
 ##### :white_check_mark: Create the database in MySql
 
@@ -62,7 +62,7 @@ CREATE TABLE tasks (
 INSERT INTO tasks (title, description) VALUES ('Task 1', 'Description of task 1');
 ```
 
-#### :heavy_plus_sign: Local Setup
+### :heavy_plus_sign: Local Setup
 
 ##### :white_check_mark: Install dependencies
 
@@ -95,7 +95,7 @@ npm run dev
 ##### :white_check_mark: Test the API in Insomnia
 
 ```BASH
-http://localhost:3000/api/tasks
+http://localhost:<your_port>/api/tasks
 ```
 
 ---
